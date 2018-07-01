@@ -1,0 +1,21 @@
+const PGCONNECTION = {
+	PGUSER		: 'postgres',
+	PGHOST		: 'localhost',
+	PGPASSWORD	: 'root',
+	PGDATABASE	: 'postgres',
+	PGPORT		: 5432
+};
+
+const MONGOCONNECTION = {
+	MGHOST			: 'localhost',
+	MGPORT			: 27017,
+	MGCOLLECTION	: 'hapi17'
+};
+
+exports.pgURL		= 'postgresql://'+PGCONNECTION.PGUSER+':'+PGCONNECTION.PGPASSWORD+'@'+PGCONNECTION.PGHOST+':'+PGCONNECTION.PGPORT+'/'+PGCONNECTION.PGDATABASE;
+exports.mongoURL	= 'mongodb://'+MONGOCONNECTION.MGHOST+':'+MONGOCONNECTION.MGPORT+'/'+MONGOCONNECTION.MGCOLLECTION;
+
+exports.SERVERCONFIG = {
+	SERVERHOST		: 	'localhost',
+	SERVERPORT		: 	3000
+};
