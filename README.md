@@ -15,12 +15,16 @@ Make sure you are using at least **node 8.10.x** and **npm 5.5.x** by verifying 
 								age INTEGER
       );
 
-    >INSERT INTO dogs(id, name, breed, age) 
-                               VALUES (101, 'Sotya', 'German Shepherd',3 ),
-			                                  (102, 'Dagdu', 'Labrador', 4),
-                                              (103, 'Pintya', 'Bulldog', 1),
-											  (104, 'Bhura, 'Poodle', 6),
-                                              (105, 'Kaala', 'Beagle', 5),
+    >    >INSERT INTO dogs(id, name, breed, age)
+            VALUES (101, 'Alekha',   'Siberian Husky',  6 ),
+                   (102, 'Chary',    'German Shepherd', 3),
+                   (103, 'Ajinkya',  'Labrador',        2),
+                   (104, 'Digambar', 'Bulldog',         4),
+                   (105, 'Aakash',   'Poodle',          3),
+                   (106, 'Vishnu',   'Beagle',          1),
+                   (107, 'Manish',   'Golden retriver', 7),
+                   (108, 'Sunil',    'Chuhuahua',       3),
+                   (109, 'Advait',   'Pug',             5)
 
 2. Goto project folder and install dependencies.
      >npm i
